@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма авторизации</title>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать!</h1>
+    </header>
+
+    <main>
+        <div>
+            <button>Войти с Google</button>
+            <button>Войти с Facebook</button>
+        </div>
+
+        <form action="#" method="post">
+            <div>
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required aria-required="true">
+            </div>
+
+            <div>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required aria-required="true">
+            </div>
+
+            <div>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Сохранять сессию</label>
+            </div>
+
+            <button type="submit">Войти</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Авторизация</p>
+    </footer>
+</body>
+</html>
