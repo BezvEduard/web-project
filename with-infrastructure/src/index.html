@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма авторизации</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="easter-egg" onclick="openHackedPage()"></div>
+
+    <header>
+        <h1>Добро пожаловать!</h1>
+    </header>
+
+    <main>
+        <div class="social-buttons">
+            <button type="button" class="google-btn">Войти с Google</button>
+            <button type="button" class="facebook-btn">Войти с Facebook</button>
+        </div>
+
+        <!-- Блок для сообщений (добавлено для вывода сообщений) -->
+        <div id="message"></div>
+
+        <form action="#" method="post">
+            <div>
+                <label for="username">Логин:</label>
+                <input type="text" id="username" name="username" required aria-required="true">
+            </div>
+
+            <div>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required aria-required="true">
+            </div>
+
+            <div>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Сохранять сессию</label>
+            </div>
+
+            <button type="submit">Войти</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Авторизация</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
